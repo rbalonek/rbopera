@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/Audio.css";
+import "./CSS/Audio.css"
 
 import ReactPlayer from "react-player";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import EngagementBlog from "../Components/EngagementBlog";
-import "./css/Engagements.css";
+import "./CSS/Engagements.css";
 
 
 export default function Engagements() {

@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/Bio.css";
+import "./CSS/Bio.css";
 
 export default function Bio() {
   return (

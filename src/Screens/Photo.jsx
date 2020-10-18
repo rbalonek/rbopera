@@ -1,9 +1,7 @@
 import React from "react";
-import LivePicCarousel from "../Components/LivePicCarousel";
-import PhotoShootCarousel from "../Components/PhotoShootCarousel";
 import Carousel from "../Components/Carousel"
 
-import "./css/Photo.css"
+import "./CSS/Photo.css"
 
 export default function Photo() {
   return (

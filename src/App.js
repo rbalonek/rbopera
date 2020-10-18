@@ -1,8 +1,8 @@
 import React from "react";
-import { Switch, Route, useHistory } from "react-router-dom";
+import { Switch, Route} from "react-router-dom";
 import "./App.css";
 import Layout from "./Layouts/Layout";
-import MainContainer from "./Containers/MainContainer.jsx";
+import MainContainer from "./Contaners/MainContainer"
 
 function App() {
   return (
