@@ -1,5 +1,4 @@
 import React from "react";
-import MainCarousel from "../Components/MainCarousel";
 import Carousel from "../Components/Carousel"
 import "./css/Home.css";
 

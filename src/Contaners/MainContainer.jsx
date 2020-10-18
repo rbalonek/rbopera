@@ -8,7 +8,7 @@ import Photo from "../Screens/Photo";
 import Contact from "../Screens/Contact";
 import Engagements from "../Screens/Engagements";
 
-export default function MainContaier() {
+export default function MainContainer() {
   return (
     <Switch>
       <Route path="/" component={Home} exact />
