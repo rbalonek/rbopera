@@ -37,12 +37,17 @@
 
 #engagement-div:hover #engagement-element {
   display: block;
-  /* width: 76%; */
-  float: right;
-  position: relative;
-  top: -380px;
+  width: 100%;
+  float: left;
+  position: ∑∑;
+  top: -60px;
   height: fit-content;
   /* min-height: 250px; */
+  /* left: 320px; */
+  height: -moz-fit-content;
+  height: fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
 }
 .opera-blog-pics {
   display: flex;
@@ -53,55 +58,14 @@
   height: 150px;
 }
 
-@media (max-width: 965px) {
-  #engagement-div:hover #engagement-element {
-    display: block;
-    width: 30%;
-    float: left;
-    position: ∑∑;
-    top: -380px;
-    height: fit-content;
-    min-height: 250px;
-    /* left: 320px; */
-    height: -moz-fit-content;
-    height: fit-content;
-    min-width: fit-content;
-  }
+.blog-img {
+  height: 150px;
+  /* width: 100%; */
+  position: relative;
+  contain: size;
 }
 
-@media (max-width: 800px) {
-  #engagement-div:hover #engagement-element {
-    display: block;
-    width: 70%;
-    float: right;
-    position: relative;
-    top: -380px;
-    height: fit-content;
-    min-height: 250px;
-    left: 320px;
-    height: -moz-fit-content;
-    height: fit-content;
-    min-width: fit-content;
-  }
-}
-
-@media (max-width: 500px) {
-  #engagement-div:hover #engagement-element {
-    display: block;
-    width: 550px;
-    float: right;
-    position: relative;
-    top: -380px;
-    height: -moz-fit-content;
-    height: fit-content;
-    min-height: 250px;
-    min-width: -moz-fit-content;
-    min-width: fit-content;
-    left: 450px;
-  }
-}
-
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   #engagement-div:hover #engagement-element {
     display: block;
     width: 100%;
