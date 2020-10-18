@@ -1,0 +1,44 @@
+.vid_container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.vid--left_div {
+  /* width: 50%; */
+  align-self: center;
+  text-align: center;
+}
+
+.vid--right_div {
+  /* width: 50%; */
+  align-self: center;
+}
+
+.vid--img {
+  height: 100px;
+}
+/* .shaunard {
+  width: 100%;
+} */
+
+@media (max-width: 560px) {
+  .shaunard {
+    width: 400px;
+  }
+  .largo {
+    width: 400px;
+  }
+  .figaro-text {
+    width: 250px;
+  }
+}
+
+@media (max-width: 401px) {
+  .shaunard {
+    width: 300px;
+  }
+  .largo {
+    width: 300px;
+  }
+}

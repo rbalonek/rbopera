@@ -1,0 +1,12 @@
+.audio-screen {
+  text-align: center;
+}
+
+.soundcloud-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-between;
+  height: 1000px;
+}

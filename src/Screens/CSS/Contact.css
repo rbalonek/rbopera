@@ -1,0 +1,48 @@
+.contact--container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.contact_left {
+  margin-left: 100px;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact_right {
+}
+.contact_right--img {
+  height: 200px;
+  box-shadow: 2px 5px 3px 0 rgba(0, 0, 0, 0.5);
+}
+
+.contact-title {
+  margin-top: -50px;
+  font: normal normal normal 24px/1.1em "Open Sans", sans-serif;
+  color: #9e2614;
+}
+
+.agent-name {
+  margin-top: -15px;
+}
+
+.city {
+  margin-top: -15px;
+}
+
+@media (max-width: 630px) {
+  .contact--container {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+  }
+  .contact_right--img {
+    display: none;
+  }
+  .contact_left {
+    margin-left: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+}

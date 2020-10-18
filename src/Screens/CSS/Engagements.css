@@ -1,0 +1,128 @@
+.engagements_container {
+  text-align: -webkit-center;
+}
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+#engagement-element {
+  border: 1px solid #ccc;
+  display: none;
+  font-size: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  background-color: floralwhite;
+}
+
+#engagement-div:hover #engagement-element {
+  display: block;
+  /* width: 76%; */
+  float: right;
+  position: relative;
+  top: -380px;
+  height: fit-content;
+  /* min-height: 250px; */
+}
+.opera-blog-pics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.opera-blog-img {
+  height: 150px;
+}
+
+@media (max-width: 965px) {
+  #engagement-div:hover #engagement-element {
+    display: block;
+    width: 30%;
+    float: left;
+    position: ∑∑;
+    top: -380px;
+    height: fit-content;
+    min-height: 250px;
+    /* left: 320px; */
+    height: -moz-fit-content;
+    height: fit-content;
+    min-width: fit-content;
+  }
+}
+
+@media (max-width: 800px) {
+  #engagement-div:hover #engagement-element {
+    display: block;
+    width: 70%;
+    float: right;
+    position: relative;
+    top: -380px;
+    height: fit-content;
+    min-height: 250px;
+    left: 320px;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-width: fit-content;
+  }
+}
+
+@media (max-width: 500px) {
+  #engagement-div:hover #engagement-element {
+    display: block;
+    width: 550px;
+    float: right;
+    position: relative;
+    top: -380px;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: 250px;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    left: 450px;
+  }
+}
+
+@media (max-width: 500px) {
+  #engagement-div:hover #engagement-element {
+    display: block;
+    width: 100%;
+    float: right;
+    position: relative;
+    top: -380px;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: 250px;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    left: 0px;
+  }
+  .opera-blog-pics {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: space-between;
+  }
+  .opera-blog-img {
+    height: 100px;
+    width: 100px;
+  }
+}

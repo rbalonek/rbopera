@@ -1,0 +1,90 @@
+.bio_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+.bio--left {
+  width: 50%;
+  float: left;
+  padding-left: 100px;
+}
+.bio--right {
+  width: 50%;
+  float: right;
+}
+
+.bio--title {
+  text-decoration: underline;
+  font: normal normal normal 24px/1.1em "Open Sans", sans-serif;
+  color: #9e2614;
+}
+.bio-img {
+  height: 600px;
+  margin-left: 30px;
+  margin-top: 50px;
+  box-shadow: 2px 5px 3px 0 rgba(0, 0, 0, 0.5);
+}
+
+.bio--text_red {
+  font: normal normal normal 16px/1.3em "Open Sans", sans-serif;
+  color: #000000;
+}
+
+.bio--text_black {
+  font: normal normal normal 16px/1.3em "Open Sans", sans-serif;
+  color: #9e2614;
+}
+
+@media (max-width: 865px) {
+  .bio-img {
+    height: 300px;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .bio--left {
+    width: 100%;
+    /* float: left; */
+    /* padding-left: 0px; */
+    text-align: inherit;
+    position: relative;
+    left: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .bio--left {
+    width: 100%;
+    /* float: left; */
+    /* padding-left: 0px; */
+    text-align: justify;
+    position: relative;
+    left: 30px;
+  }
+  .bio-img {
+    display: none;
+  }
+  .bio--left {
+    width: 80%;
+    float: left;
+    padding-left: 0px;
+  }
+  .bio--left {
+    width: 80%;
+    float: left;
+    padding-left: 0px;
+    text-align: justify;
+    position: relative;
+    left: 30px;
+  }
+  .bio--left {
+    width: 180%;
+    float: left;
+    padding-left: 0px;
+    text-align: justify;
+    position: relative;
+    margin-left: 0px;
+  }
+}
