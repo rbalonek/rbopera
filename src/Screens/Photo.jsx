@@ -7,7 +7,9 @@ export default function Photo() {
   return (
     <div className="photo-screen-container">
       <h1>Photo</h1>
+      <div className="headshots">
       <h2>Headshots</h2>
+      </div>
       <a
       target="_blank"
       rel="noopener noreferrer"
@@ -15,7 +17,7 @@ export default function Photo() {
     >
         <p>by: Shirin Tinati</p>
       </a>
-      <div className="headshot-container">
+      <div className="photo-container">
         <Carousel
         dynamicHeight={true}
         img1={"https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145823/robertbalonek.com/Headshots/2_joqnwo.jpg"}
@@ -27,6 +29,7 @@ export default function Photo() {
         </div>
       <br />
       <h2>Live Pics</h2>
+      <div className="photo-container">
       <Carousel
         dynamicHeight={true}
         img1={"https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145742/robertbalonek.com/BobLiveShots/IMG_7980_copy.JPG_bxtgpy.jpg"}
@@ -35,6 +38,7 @@ export default function Photo() {
         img4={"https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145741/robertbalonek.com/BobLiveShots/IMG_7955.JPG_c8m0ib.jpg"}
         img5={"https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145741/robertbalonek.com/BobLiveShots/Blitch_1_ovmrws.jpghttps://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145741/robertbalonek.com/BobLiveShots/Figaro_90210_Footsie_pneljc.jpg"}
         />
+        </div>
     </div>
   );
 }

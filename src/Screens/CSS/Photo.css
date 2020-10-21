@@ -1,6 +1,11 @@
 .photo-screen-container {
   text-align: center;
+  text-align: -webkit-center;
 }
-.headshot-container {
-  /* height: 100px; */
+.photo-container {
+  width: 80%;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
+}
+.headshots {
+  text-align: center;
 }

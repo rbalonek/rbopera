@@ -20,7 +20,7 @@ export default function Home() {
         <div className="home--left">
           <div className="date-button"><p className="date-text">2020</p></div>
           <p className="home-text">
-            The 2020 performances of Rigoletto and Roberts Carnegie Hall debut
+            The 2020 performances of the title role in Rigoletto, Scarpia in Tosca,  and Roberts Carnegie Hall debut
             of the Vaughn Williams 5 Mystical songs have been postponed until
             further notice.
           </p>
