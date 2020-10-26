@@ -58,6 +58,7 @@ a:hover {
   position: absolute;
   align-items: center;
   right: 160px;
+  margin-top: -5px;
 }
 
 #header--media-element:hover {
