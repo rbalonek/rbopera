@@ -1,8 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import EngagementBlog from "../Components/EngagementBlog";
 import "./CSS/Engagements.css";
-
 
 export default function Engagements() {
   return (
@@ -32,7 +30,6 @@ export default function Engagements() {
             Church of the Heavenly Rest – 90th Street and 5th Avenue March 3,
             2019 at 3pm
           </p>
-          
         </span>
       </div>
 

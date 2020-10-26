@@ -8,10 +8,10 @@
   flex-wrap: wrap;
   flex-direction: row;
   align-content: space-between;
-  height: 1000px;
   justify-content: center;
 }
 
 .player {
   margin-left: 20px;
+  margin-bottom: 20px;
 }
