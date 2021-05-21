@@ -2,6 +2,10 @@ import React from "react";
 import Carousel from "../Components/Carousel";
 import "./CSS/Home.css";
 
+import imageOne from "../images/Opera News Final.jpg";
+import BohemeOperaImg from "../images/BohemeOperaNJLogo.png";
+import OperaModesto from "../images/Opera Modesto.png";
+
 import AdSense from "react-adsense";
 
 export default function Home() {
@@ -9,9 +13,7 @@ export default function Home() {
     <div className="home-div">
       <div className="carousel-div">
         <Carousel
-          img1={
-            "https://res.cloudinary.com/bobalobbadingdong/image/upload/c_scale,h_350/v1601145556/robertbalonek.com/HomeCarousel/Opera_News_Final_l1hbsb.jpg"
-          }
+          img1={imageOne}
           img2={
             "https://res.cloudinary.com/bobalobbadingdong/image/upload/c_scale,h_350/v1601145555/robertbalonek.com/HomeCarousel/Prospero_1Fade_ezllvo.jpg"
           }
@@ -28,14 +30,56 @@ export default function Home() {
       </div>
       <div className="home_bottom_container">
         <div className="home--left">
-          <div className="date-button">
-            <p className="date-text">2020</p>
+          <div
+            style={{ position: "relative", top: "-20px" }}
+            className="date-button"
+          >
+            <p className="date-text">2021</p>
           </div>
-          <p className="home-text">
-            The 2020 performances of the title role in Rigoletto, Scarpia in
-            Tosca, and Roberts Carnegie Hall debut of the Vaughn Williams 5
-            Mystical songs have been postponed until further notice.
-          </p>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.bohemeopera.com/mainstage"
+          >
+            <img
+              style={{ height: "100px", position: "relative", top: "-20px" }}
+              src={BohemeOperaImg}
+              alt="Boheme"
+            />
+          </a>
+          <div style={{ position: "relative", top: "-50px" }}>
+            <p>
+              Role: <span style={{ fontWeight: "900" }}>Rigoletto</span>
+              <br />
+              Date: <span style={{ fontWeight: "900" }}>TBA Fall 2021</span>
+            </p>
+          </div>
+          <hr style={{ position: "relative", top: "-50px" }} />
+          <div
+            style={{ position: "relative", top: "-50px" }}
+            className="date-button"
+          >
+            <p className="date-text">2022</p>
+          </div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.operamodesto.org/concerts/"
+          >
+            <img
+              style={{ height: "100px", position: "relative", top: "-50px" }}
+              src={OperaModesto}
+              alt="Boheme"
+            />
+          </a>
+          <div style={{ position: "relative", top: "-60px" }}>
+            <p>
+              Role:{" "}
+              <span style={{ fontWeight: "900" }}>Marcello (La Boheme)</span>
+              <br />
+              Date: <span style={{ fontWeight: "900" }}>April 29-May 1st</span>
+            </p>
+          </div>
         </div>
         <div className="home--right">
           <h1 className="review-title">Featured Reviews:</h1>
