@@ -95,6 +95,13 @@
   font-weight: 600;
 }
 
+.Modal {
+  text-align: center;
+  height: 80vh;
+  width: 50vw;
+  transform: translate(50%, 10%);
+}
+
 @media (max-width: 600px) {
   .opera-name {
     position: relative;

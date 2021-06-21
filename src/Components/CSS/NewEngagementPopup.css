@@ -1,9 +1,9 @@
 .engagement-popup_container {
-  z-index: 999;
-  top: 0;
-  position: relative;
-  height: 700px;
-  width: 300px;
+  /* z-index: 999; */
+  /* top: 0;
+  position: absolute; */
+  height: 100%;
+  width: 100%;
   background-color: green;
 }
 

@@ -1,13 +1,22 @@
 import React, { useState } from "react";
+import Modal from "react-modal";
 import "./CSS/Engagement.css";
 import NewEngagementPopup from "../Components/NewEngagementPopup";
 
 export default function Engagement(props) {
-  const [show, setShow] = useState("hide");
+  const [modalIsOpen, setIsOpen] = useState(false);
 
-  const handleClick = () => {
-    setShow("hide");
-  };
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  // function afterOpenModal() {
+  //   // references are now sync'd and can be accessed.
+  // }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
 
   return (
     <div className="engagement-container">
@@ -29,24 +38,24 @@ export default function Engagement(props) {
         <h3 className="tickets">Tickets</h3>
       ) : (
         <>
-          <p
-            onClick={() => {
-              setShow("show");
-            }}
-            className="more-info"
-          >
+          <p onClick={openModal} className="more-info">
             More Info
           </p>
-
-          <div className={show}>
-            <div>
-              <NewEngagementPopup handleClick={handleClick} role={props.role} />
-            </div>
-          </div>
         </>
       )}
 
       <h1 className="company-name">{props.company}</h1>
+
+      <Modal
+        isOpen={modalIsOpen}
+        // onAfterOpen={afterOpenModal}
+        onRequestClose={closeModal}
+        // style={customStyles}
+        className="Modal"
+        contentLabel="Modal"
+      >
+        <NewEngagementPopup handleClick={closeModal} role={props.role} />
+      </Modal>
     </div>
   );
 }
