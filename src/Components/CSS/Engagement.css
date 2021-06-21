@@ -98,8 +98,8 @@
 .Modal {
   text-align: center;
   height: 80vh;
-  width: 50vw;
-  transform: translate(50%, 10%);
+  width: 80vw;
+  transform: translate(15%, 10%);
 }
 
 @media (max-width: 600px) {

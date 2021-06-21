@@ -54,15 +54,12 @@ export default function Engagement(props) {
         className="Modal"
         contentLabel="Modal"
       >
-        <NewEngagementPopup handleClick={closeModal} role={props.role} />
+        <NewEngagementPopup
+          modalImages={props.modalImages}
+          handleClick={closeModal}
+          role={props.role}
+        />
       </Modal>
     </div>
   );
 }
-
-// <div className={show} onclick={() => setShow("hide")}>
-// <NewEngagementPopup />
-// </div>
-
-// <a target="_blank" rel="noopener noreferrer" href={props.ticketLink}>
-// </a>

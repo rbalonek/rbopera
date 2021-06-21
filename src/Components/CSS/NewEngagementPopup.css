@@ -14,3 +14,15 @@
 .show {
   display: flex;
 }
+
+.modal-img_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.modal-img {
+  max-height: 200px;
+  margin-bottom: 20px;
+}
