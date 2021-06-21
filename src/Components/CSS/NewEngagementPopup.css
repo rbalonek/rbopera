@@ -1,0 +1,16 @@
+.engagement-popup_container {
+  z-index: 999;
+  top: 0;
+  position: relative;
+  height: 700px;
+  width: 300px;
+  background-color: green;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: flex;
+}
