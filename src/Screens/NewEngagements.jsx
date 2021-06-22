@@ -26,12 +26,26 @@ export default function NewEngagements() {
           composer="Puccini"
           company="NYC Opera"
           img="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145907/robertbalonek.com/Logos/Canterbury_yzrqt6.png"
+          dates="October 30 - Nov 1"
+          venue="Steven Center, Winston-Salem NC"
           modalImages={[
             "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601221847/robertbalonek.com/BobLiveShots/2_paeohz.png",
             "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601221847/robertbalonek.com/BobLiveShots/IMG_2642_2.JPG_aiepat.jpg",
             "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601221847/robertbalonek.com/BobLiveShots/IMG_2598.JPG_a7qc3b.jpg",
             "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601221847/robertbalonek.com/BobLiveShots/IMG_2592.JPG_pqvtap.jpg",
             "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601221839/robertbalonek.com/BobLiveShots/IMG_2599_spwf9i.jpg",
+          ]}
+          propObj={[
+            {
+              Quote:
+                "Steven LaCosse, the stage director, uses the physicality of his singers to great effect, especially Balonek, who might well be the most acrobatic opera singer I have ever seen. His antics are dazzling, and his voice is, too.",
+              From: "Winston-Salem Journal",
+            },
+            {
+              Quote:
+                "Schaunard, the musician, was beautifully sung by Robert Balonek, whose acting was convincing and comedy hilarious.",
+              From: "Classical Voice North Carolina",
+            },
           ]}
         />
 

@@ -55,6 +55,7 @@ export default function Engagement(props) {
         contentLabel="Modal"
       >
         <NewEngagementPopup
+          propObj={props.propObj}
           modalImages={props.modalImages}
           handleClick={closeModal}
           role={props.role}
