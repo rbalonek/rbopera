@@ -62,7 +62,8 @@ a:hover {
 }
 
 #header--media-element:hover {
-  background-color: rgb(43, 223, 226);
+  /* background-color: rgb(43, 223, 226); */
+  
 }
 
 .header--link_media:hover {

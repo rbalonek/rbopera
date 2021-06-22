@@ -6,6 +6,7 @@ export default function Engagements() {
   return (
     <div className="engagements_container">
       <h1>ENGAGEMENTS</h1>
+
       <div id="engagement-div">
         <EngagementBlog
           title="Shaunard - Boheme - NYC Opera"

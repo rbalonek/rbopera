@@ -7,6 +7,7 @@ import Video from "../Screens/Video";
 import Photo from "../Screens/Photo";
 import Contact from "../Screens/Contact";
 import Engagements from "../Screens/Engagements";
+import NewEngagements from "../Screens/NewEngagements";
 
 export default function MainContainer() {
   return (
@@ -18,7 +19,7 @@ export default function MainContainer() {
       </Route>
 
       <Route path="/engagements">
-        <Engagements />
+        <NewEngagements />
       </Route>
 
       <Route path="/video">
