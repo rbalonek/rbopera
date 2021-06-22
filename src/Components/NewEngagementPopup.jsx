@@ -7,13 +7,20 @@ export default function NewEngagementPopup(props) {
 
   return (
     <div className="engagement-popup_container">
-      <h1 style={{ color: "white" }}>{props.role}</h1>
+      <div className="modal-title">
+        <h1 style={{ color: "white" }}>{props.role}</h1>
+        <h1 style={{ color: "white" }}>{props.opera}</h1>
+      </div>
 
       {props.modalImages && <Carousel modalImages={props.modalImages} />}
 
-      {props.propObj && (
+      <div className="modal-logo-container">
+        <img className="modal-logo" src={props.logo} alt={props.logo} />
+      </div>
+
+      {props.reviews && (
         <div>
-          {props.propObj.map((review) => (
+          {props.reviews.map((review) => (
             <div>
               <p style={{ color: "white" }}>"{review.Quote}"</p>
               <p style={{ color: "white" }}>- {review.From}</p>

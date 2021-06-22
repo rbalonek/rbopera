@@ -9,7 +9,7 @@ export default function NewEngagements() {
 
       <div className="engagement-list-container">
         <Engagement
-          img="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601215498/robertbalonek.com/Logos/NYCOpera_szn6kj.png"
+          logo="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601215498/robertbalonek.com/Logos/NYCOpera_szn6kj.png"
           role="Shaunard"
           opera="La Boheme"
           composer="Puccini"
@@ -25,7 +25,7 @@ export default function NewEngagements() {
           opera="La Boheme"
           composer="Puccini"
           company="NYC Opera"
-          img="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145907/robertbalonek.com/Logos/Canterbury_yzrqt6.png"
+          logo="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601221292/PiedmontOpera.png"
           dates="October 30 - Nov 1"
           venue="Steven Center, Winston-Salem NC"
           modalImages={[
@@ -35,7 +35,7 @@ export default function NewEngagements() {
             "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601221847/robertbalonek.com/BobLiveShots/IMG_2592.JPG_pqvtap.jpg",
             "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601221839/robertbalonek.com/BobLiveShots/IMG_2599_spwf9i.jpg",
           ]}
-          propObj={[
+          reviews={[
             {
               Quote:
                 "Steven LaCosse, the stage director, uses the physicality of his singers to great effect, especially Balonek, who might well be the most acrobatic opera singer I have ever seen. His antics are dazzling, and his voice is, too.",
@@ -54,7 +54,7 @@ export default function NewEngagements() {
           opera="La Boheme"
           composer="Puccini"
           company="NYC Opera"
-          img="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601221292/PiedmontOpera.png"
+          logo="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145907/robertbalonek.com/Logos/Canterbury_yzrqt6.png"
         />
 
         <Engagement
@@ -62,7 +62,7 @@ export default function NewEngagements() {
           opera="La Boheme"
           composer="Puccini"
           company="NYC Opera"
-          img="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145668/robertbalonek.com/Logos/Lil_Opera_irzsbz.jpg"
+          logo="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145668/robertbalonek.com/Logos/Lil_Opera_irzsbz.jpg"
         />
       </div>
     </div>

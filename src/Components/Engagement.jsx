@@ -20,7 +20,7 @@ export default function Engagement(props) {
 
   return (
     <div className="engagement-container">
-      <img className="engagement-img" src={props.img} alt={props.title} />
+      <img className="engagement-img" src={props.logo} alt={props.title} />
 
       <div className="engagement-body">
         <p className="role-name ">{props.role}</p>
@@ -55,10 +55,12 @@ export default function Engagement(props) {
         contentLabel="Modal"
       >
         <NewEngagementPopup
-          propObj={props.propObj}
+          reviews={props.reviews}
           modalImages={props.modalImages}
           handleClick={closeModal}
           role={props.role}
+          opera={props.opera}
+          logo={props.logo}
         />
       </Modal>
     </div>
