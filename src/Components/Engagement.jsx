@@ -20,7 +20,7 @@ export default function Engagement(props) {
 
   return (
     <div className="engagement-container">
-      <img className="engagement-img" src={props.logo} alt={props.title} />
+      
 
       <div className="engagement-body">
         <p className="role-name ">{props.role}</p>
@@ -29,13 +29,17 @@ export default function Engagement(props) {
 
       <p className="composer-name">{props.composer}</p>
 
+      <img className="engagement-img" src={props.logo} alt={props.title} />
+
       <div className="performance-info-container">
         <p>{props.dates}</p>
         <p>{props.venue}</p>
       </div>
 
       {props.tickets === "true" ? (
-        <h3 className="tickets">Tickets</h3>
+        <a href={props.ticketLink} target="_blank" rel="noopener noreferrer" >
+          <h3 className="tickets">Tickets</h3>
+        </a>
       ) : (
         <>
           <p onClick={openModal} className="more-info">

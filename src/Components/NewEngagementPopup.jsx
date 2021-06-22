@@ -12,9 +12,7 @@ export default function NewEngagementPopup(props) {
         <h1 className="modal-opera">{props.opera}</h1>
       </div>
 
-      <div className="modal-logo-container">
-        <img className="modal-logo" src={props.logo} alt={props.logo} />
-      </div>
+      
 
       {props.modalImages && <Carousel modalImages={props.modalImages} />}
 
@@ -30,6 +28,7 @@ export default function NewEngagementPopup(props) {
       )}
       <div style={{ width: "100%", display: "flex", justifyContent: "center" }}>
         <button
+          className="close-btn"
           style={{ position: "absolute", bottom: 10 }}
           onClick={props.handleClick}
         >
@@ -49,3 +48,8 @@ export default function NewEngagementPopup(props) {
 //     ))}
 //   </div>
 // )}
+
+
+// <div className="modal-logo-container">
+//         <img className="modal-logo" src={props.logo} alt={props.logo} />
+//       </div>

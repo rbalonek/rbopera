@@ -13,8 +13,12 @@
 
 .engagement-body {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
+  position: relative;
+  top: 10px;
+  align-items: center;
 }
 
 .tickets {
@@ -57,7 +61,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 600;
   position: relative;
-  top: -20px;
+  top: -0px;
 }
 
 .opera-name {
@@ -67,7 +71,7 @@
   font-weight: 800;
   position: relative;
   letter-spacing: 2px;
-  top: -20px;
+  top: -30px;
 }
 
 .composer-name {
@@ -81,6 +85,7 @@
   height: 100px;
   max-width: 80%;
   border-radius: 5%;
+  position: relative;top: -50px;
 }
 
 .performance-info-container {
@@ -93,6 +98,7 @@
 .company-name {
   color: whitesmoke;
   font-weight: 600;
+  font-size: larger;
 }
 
 .Modal {
