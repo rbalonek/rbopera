@@ -36,6 +36,28 @@ export default function Home() {
           >
             <p className="date-text">2021</p>
           </div>
+
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.operaonthejames.org/shows"
+          >
+            <img
+              style={{ height: "100px", position: "relative", top: "-10px" }}
+              src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624389679/robertbalonek.com/Performances/OOTJ%20Figaro/OOTJ_l2gjb0.webp"
+              alt="OOTJ"
+            />
+          </a>
+
+          <div style={{ position: "relative", top: "-10px" }}>
+            <p>
+              Role: <span style={{ fontWeight: "900" }}>Figaro</span>
+              <br />
+              Date: <span style={{ fontWeight: "900" }}>Nov 12-14</span>
+            </p>
+          </div>
+          <hr style={{ position: "relative", top: "-10px" }} />
+
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -55,6 +77,7 @@ export default function Home() {
             </p>
           </div>
           <hr style={{ position: "relative", top: "-50px" }} />
+
           <div
             style={{ position: "relative", top: "-50px" }}
             className="date-button"
