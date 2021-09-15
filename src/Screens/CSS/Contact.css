@@ -30,6 +30,10 @@
   margin-top: -15px;
 }
 
+.adsense-holder {
+  background-color: black;
+}
+
 @media (max-width: 630px) {
   .contact--container {
     width: 100%;

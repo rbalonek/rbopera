@@ -1,5 +1,6 @@
 import React from "react";
 import "./CSS/Contact.css";
+import AdSense from "react-adsense";
 
 export default function Contact() {
   return (

@@ -6,7 +6,7 @@ import imageOne from "../images/Opera News Final.jpg";
 import BohemeOperaImg from "../images/BohemeOperaNJLogo.png";
 import OperaModesto from "../images/Opera Modesto.png";
 
-import AdSense from "react-adsense";
+// import AdSense from "react-adsense";
 
 export default function Home() {
   return (
