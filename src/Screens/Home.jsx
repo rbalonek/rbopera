@@ -95,7 +95,12 @@ export default function Home() {
               alt="Boheme"
             />
           </a>
-          <div style={{ position: "relative", top: "-60px" }}>
+          <div
+            style={{
+              position: "relative",
+              top: "-60px",
+            }}
+          >
             <p>
               Role:{" "}
               <span style={{ fontWeight: "900" }}>Marcello (La Boheme)</span>
@@ -125,13 +130,13 @@ export default function Home() {
           <p className="sitation-review">-Winston-Salem Journal</p>
         </div>
       </div>
-      <AdSense.Google
-        client="ca-pub-4689705312531717"
-        slot="2939147667"
-        style={{ display: "block" }}
-        format="auto"
-        responsive="true"
-      />
     </div>
   );
 }
+// <AdSense.Google
+// client="ca-pub-4689705312531717"
+// slot="2939147667"
+// style={{ display: "block" }}
+// format="auto"
+// responsive="true"
+// />
